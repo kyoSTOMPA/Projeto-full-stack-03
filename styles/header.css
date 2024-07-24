@@ -1,7 +1,7 @@
 header {
   padding-block: 32px;
   
-  font: var(--text-md);
+  font: var(--text-md);  
 }
 
 header .container {
@@ -33,6 +33,13 @@ header .container {
   gap: 16px;
 
   width: 280px;
+}
+
+#profile img {
+  width: 176px;
+  height: 176px;
+  object-fit: cover;
+  border-radius: 50%;
 }
 
 #info li {
